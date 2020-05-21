@@ -23,20 +23,20 @@
         </dependency>
     </dependencies>
 
-<!--    <repositories>-->
+    <repositories>
+        <repository>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
 <!--        <repository>-->
-<!--            <id>oss-sonatype</id>-->
-<!--            <name>oss-sonatype</name>-->
-<!--            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>-->
-<!--            <snapshots>-->
-<!--                <enabled>true</enabled>-->
-<!--            </snapshots>-->
+<!--            <id>sonatype</id>-->
+<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
 <!--        </repository>-->
-<!--&lt;!&ndash;        <repository>&ndash;&gt;-->
-<!--&lt;!&ndash;            <id>sonatype</id>&ndash;&gt;-->
-<!--&lt;!&ndash;            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>&ndash;&gt;-->
-<!--&lt;!&ndash;        </repository>&ndash;&gt;-->
-<!--    </repositories>-->
+    </repositories>
 
     <build>
         <plugins>
