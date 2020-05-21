@@ -24,11 +24,17 @@
     </dependencies>
 
     <repositories>
-        <!-- Repository for releases -->
         <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </repositories>
 
