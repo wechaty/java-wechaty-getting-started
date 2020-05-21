@@ -21,6 +21,25 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>github</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>true</enabled></snapshots>
+                </repository>
+                <repository>
+                    <id>github</id>
+                    <name>github repo</name>
+                    <url>https://maven.pkg.github.com/diaozxin/wechaty-parent</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
     <distributionManagement>
         <repository>
             <id>github</id>
