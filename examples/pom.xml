@@ -19,7 +19,7 @@
         <dependency>
             <groupId>io.github.wechaty</groupId>
             <artifactId>wechaty</artifactId>
-            <version>1.0.0-SNAPSOHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
