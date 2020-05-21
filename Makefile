@@ -7,4 +7,4 @@ install:
 
 .PHONY: bot
 bot:
-	java examples/ding-dong-bot.java
+	java -jar examples/target/wechaty-examples-1.0.0-SNAPSOHOT-jar-with-dependencies.jar
