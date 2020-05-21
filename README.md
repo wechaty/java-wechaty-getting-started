@@ -1,5 +1,7 @@
 # java-wechaty-getting-started
 
+![Java CI with Maven](https://github.com/wechaty/java-wechaty-getting-started/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 Java Wechaty Starter Project Template that Works Out-of-the-Box
 
 ![Java Wechaty](https://wechaty.github.io/java-wechaty/images/java-wechaty.png)
