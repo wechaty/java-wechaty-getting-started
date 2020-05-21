@@ -17,7 +17,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.wechaty</groupId>
+            <groupId>io.github.wechaty</groupId>
             <artifactId>wechaty</artifactId>
             <version>1.0.0-SNAPSOHOT</version>
         </dependency>
