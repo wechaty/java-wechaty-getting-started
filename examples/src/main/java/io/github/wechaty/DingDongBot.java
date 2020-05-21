@@ -1,5 +1,4 @@
-package io.github.wechaty.examples;
-
+package io.github.wechaty;
 
 import io.github.wechaty.MessageListener;
 import io.github.wechaty.ScanListener;

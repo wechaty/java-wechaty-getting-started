@@ -4,8 +4,8 @@
 
     <groupId>io.github.wechaty</groupId>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>wechaty-examples</artifactId>
-    <name>wechaty-examples</name>
+    <artifactId>ding-dong-bot</artifactId>
+    <name>ding-dong-bot</name>
     <version>1.0.0-SNAPSOHOT</version>
 
     <properties>
@@ -153,7 +153,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>io.github.wechaty.examples.DingDongBot</mainClass>
+                                    <mainClass>io.github.wechaty.DingDongBot</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
