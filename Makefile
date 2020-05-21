@@ -3,7 +3,7 @@ all: install bot
 
 .PHONY: install
 install:
-	mvn install
+	mvn clean install -f examples/pom.xml
 
 .PHONY: bot
 bot:

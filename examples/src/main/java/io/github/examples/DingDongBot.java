@@ -21,9 +21,17 @@ import java.util.stream.Collectors;
 public class DingDongBot {
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception {
 
-        Wechaty bot = Wechaty.instance("your_token");
+        String token = "your_token";
+
+        if(StringUtils.equals("your_token",token)){
+            throw new Exception("need a token");
+        }
+
+        Wechaty bot = Wechaty.instance(token);
+
+
 
         bot.on("scan", (qrcode, statusScanStatus, data) -> {
             System.out.println(QrcodeUtils.getQr(qrcode));
