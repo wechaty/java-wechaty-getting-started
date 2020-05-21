@@ -34,7 +34,7 @@
                 <repository>
                     <id>github</id>
                     <name>github repo</name>
-                    <url>https://maven.pkg.github.com/diaozxin/wechaty-parent</url>
+                    <url>https://maven.pkg.github.com/diaozxin007/wechaty-parent</url>
                 </repository>
             </repositories>
         </profile>
