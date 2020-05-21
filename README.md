@@ -2,9 +2,12 @@
 
 Java Wechaty Starter Project Template that Works Out-of-the-Box
 
+![Java Wechaty](https://wechaty.github.io/java-wechaty/images/java-wechaty.png)
+
 ## Connecting Chatbots
 
 [![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-brightgreen.svg)](https://github.com/Wechaty/wechaty)
+[![Java Version](https://img.shields.io/maven-central/v/io.github.wechaty/wechaty?label=Java)](https://mvnrepository.com/artifact/io.github.wechaty/wechaty)
 
 Wechaty is a RPA SDK for Wechat **Individual** Account that can help you create a chatbot in 6 lines of Java.
 
@@ -27,6 +30,9 @@ class Bot{
 ### Install
 
 ```sh
+# Install Maven
+apt install maven
+
 make install
 ```
 
