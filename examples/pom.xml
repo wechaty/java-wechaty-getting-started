@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>wechaty-examples</artifactId>
     <name>wechaty-examples</name>
-    <version>1.0.0-SNAPSOHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
@@ -17,67 +17,26 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.wechaty</groupId>
+            <groupId>io.github.wechaty</groupId>
             <artifactId>wechaty</artifactId>
-            <version>1.0.0-SNAPSOHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
-    <profiles>
-        <profile>
-            <id>github</id>
-            <repositories>
-                <repository>
-                    <id>central</id>
-                    <url>https://repo1.maven.org/maven2</url>
-                    <releases><enabled>true</enabled></releases>
-                    <snapshots><enabled>true</enabled></snapshots>
-                </repository>
-                <repository>
-                    <id>github</id>
-                    <name>github repo</name>
-                    <url>https://maven.pkg.github.com/diaozxin007/wechaty-parent</url>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>kotlin-wechaty</name>
-            <url>https://maven.pkg.github.com/diaozxin007/java-wechaty</url>
-        </repository>
-    </distributionManagement>
-
     <repositories>
         <repository>
-            <!-- Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id
-            就会覆盖中央仓库的配置 --> <id>mvnrepository</id>
-            <name>mvnrepository</name>
-            <url>http://www.mvnrepository.com/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <!-- Maven 自带的中央仓库使用的Id为central 如果其他的仓库声明也是用该Id
-            就会覆盖中央仓库的配置 -->
-            <id>github</id>
-            <name>kotlin-wechaty</name>
-            <url>https://maven.pkg.github.com/diaozxin007/java-wechaty</url>
-            <layout>default</layout>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+<!--        <repository>-->
+<!--            <id>sonatype</id>-->
+<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--        </repository>-->
     </repositories>
-
-
 
     <build>
         <plugins>
@@ -153,7 +112,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>io.github.wechaty.examples.DingDongBot</mainClass>
+                                    <mainClass>io.github.wechaty.DingDongBot</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>

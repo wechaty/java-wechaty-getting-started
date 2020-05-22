@@ -7,7 +7,7 @@ install:
 
 .PHONY: bot
 bot:
-	java -jar examples/target/wechaty-examples-1.0.0-SNAPSOHOT-jar-with-dependencies.jar
+	java -jar examples/target/wechaty-examples-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
 .PHONY: version
 version:
