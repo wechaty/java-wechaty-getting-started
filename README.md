@@ -1,10 +1,8 @@
-# java-wechaty-getting-started
-
-[![Java CI with Maven](https://github.com/wechaty/java-wechaty-getting-started/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/wechaty/java-wechaty-getting-started/actions?query=workflow%3A%22Java+CI+with+Maven%22)
-
-Java Wechaty Starter Project Template that Works Out-of-the-Box
+# java-wechaty-getting-started [![Java Version](https://img.shields.io/maven-central/v/io.github.wechaty/wechaty?label=Java)](https://mvnrepository.com/artifact/io.github.wechaty/wechaty) [![Java CI with Maven](https://github.com/wechaty/java-wechaty-getting-started/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/wechaty/java-wechaty-getting-started/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 
 ![Java Wechaty](https://wechaty.github.io/java-wechaty/images/java-wechaty.png)
+
+Java Wechaty Starter Project Template that Works Out-of-the-Box
 
 ## Connecting Chatbots
 
