@@ -14,11 +14,15 @@ public class DingDongBot {
 
         final String token = System.getenv("WECHATY_PUPPET_HOSTIE_TOKEN");
 
-        if(StringUtils.isBlank(token)){
+        if (StringUtils.isBlank(token)) {
+
+            System.out.println("Error: WECHATY_PUPPET_HOSTIE_TOKEN is not found in the environment variables");
+            System.out.println("You need a TOKEN to run the Java Wechaty. Please goto our README for details");
+            System.out.println("https://github.com/wechaty/java-wechaty-getting-started/#wechaty_puppet_hostie_token");
+
             throw new Exception("need a token");
         }
         Wechaty bot = Wechaty.instance(token);
-
 
 
         bot.on("scan", (qrcode, statusScanStatus, data) -> {
@@ -44,7 +48,6 @@ public class DingDongBot {
         bot.start(true);
 
     }
-
 
 
 }
