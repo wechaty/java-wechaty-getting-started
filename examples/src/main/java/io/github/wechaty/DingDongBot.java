@@ -12,12 +12,11 @@ public class DingDongBot {
 
     public static void main(String[] args) throws Exception {
 
-        String token = "your_token";
+        final String token = System.getenv("WECHATY_PUPPET_HOSTIE_TOKEN");
 
-        if(StringUtils.equals("your_token",token)){
+        if(StringUtils.isBlank(token)){
             throw new Exception("need a token");
         }
-
         Wechaty bot = Wechaty.instance(token);
 
 
