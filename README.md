@@ -1,10 +1,8 @@
-# java-wechaty-getting-started
+# java-wechaty-getting-started [![Java Version](https://img.shields.io/maven-central/v/io.github.wechaty/wechaty?label=Java)](https://mvnrepository.com/artifact/io.github.wechaty/wechaty) [![Java CI with Maven](https://github.com/wechaty/java-wechaty-getting-started/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/wechaty/java-wechaty-getting-started/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 
-[![Java CI with Maven](https://github.com/wechaty/java-wechaty-getting-started/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/wechaty/java-wechaty-getting-started/actions?query=workflow%3A%22Java+CI+with+Maven%22)
+[![Java Wechaty](https://wechaty.github.io/java-wechaty/images/java-wechaty.png)](https://github.com/wechaty/java-wechaty-getting-started)
 
 Java Wechaty Starter Project Template that Works Out-of-the-Box
-
-![Java Wechaty](https://wechaty.github.io/java-wechaty/images/java-wechaty.png)
 
 ## Connecting Chatbots
 
@@ -41,6 +39,8 @@ make install
 ### Run
 
 ```sh
+export WECHATY_PUPPET_HOSTIE_TOKEN=your_token_at_here
+
 make bot
 ```
 
@@ -51,8 +51,12 @@ make bot
 - [Java Wechaty Getting Started](https://github.com/wechaty/java-wechaty-getting-started)
 - [Go Wechaty Getting Started](https://github.com/wechaty/go-wechaty-getting-started)
 
+## Maintainers
+
+[@wechaty/java](https://github.com/orgs/wechaty/teams/java/members)
+
 ## Copyright & License
 
-- Code & Docs © 2020-now Wechaty <https://github.com/wechaty>
+- Code & Docs © 2020 Wechaty <https://github.com/wechaty>
 - Code released under the Apache-2.0 License
 - Docs released under Creative Commons

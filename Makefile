@@ -9,6 +9,10 @@ install:
 bot:
 	java -jar examples/target/wechaty-examples-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
+.PHONY: clean
+clean:
+	rm -fr examples/target/*
+
 .PHONY: version
 version:
 	@newVersion=$$(awk -F. '{print $$1"."$$2"."$$3+1}' < VERSION) \
