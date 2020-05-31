@@ -4,6 +4,8 @@
 
 Java Wechaty Starter Project Template that Works Out-of-the-Box
 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wechaty/java-wechaty-getting-started) 
+
 ## Connecting Chatbots
 
 [![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-brightgreen.svg)](https://github.com/Wechaty/wechaty)
@@ -57,6 +59,6 @@ make bot
 
 ## Copyright & License
 
-- Code & Docs © 2020 Wechaty <https://github.com/wechaty>
+- Code & Docs © 2020 Wechaty Contributors <https://github.com/wechaty>
 - Code released under the Apache-2.0 License
 - Docs released under Creative Commons
