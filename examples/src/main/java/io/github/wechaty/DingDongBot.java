@@ -25,11 +25,11 @@ public class DingDongBot {
         Wechaty bot = Wechaty.instance(token);
 
 
-        bot.on("scan", (qrcode, statusScanStatus, data) -> {
+        bot.onScan((qrcode, statusScanStatus, data) -> {
             System.out.println(QrcodeUtils.getQr(qrcode));
         });
 
-        bot.on("message", (MessageListener) message -> {
+        bot.onMessage(message -> {
 
             Contact from = message.from();
             Room room = message.room();
