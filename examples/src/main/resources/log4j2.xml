@@ -12,6 +12,4 @@
         <Logger name="io.github.wechaty" level="DEBUG">
         </Logger>
     </Loggers>
-
-
 </Configuration>
