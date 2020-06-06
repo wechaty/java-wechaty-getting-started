@@ -25,7 +25,7 @@ class Bot{
       .start(true);
   }
 }
-``
+```
 
 ## Usage
 
