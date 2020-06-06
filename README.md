@@ -18,14 +18,14 @@ Wechaty is a RPA SDK for Wechat **Individual** Account that can help you create 
 ```java
 class Bot{
   public static void main(String args[]){
-    bot = Wechaty.instance()
-      .on('scan', (qrcode, status string) -> System.out.println('Scan QR Code to login: %s\nhttps://api.qrserver.com/v1/create-qr-code/?data=%s', status, encodeURIComponent(qrcode)))
-      .on('login', user -> System.out.println('User %s logined', user))
-      .on('message', message -> System.out.println('Message: %s', message))
-      .start();
+    Wechaty bot = Wechaty.instance()
+      .onScan((qrcode, statusScanStatus, data) -> System.out.println(QrcodeUtils.getQr(qrcode)))
+      .onLogin(user -> System.out.println("User logined :" + user))
+      .onMessage(message -> System.out.println("Message:" + message))
+      .start(true);
   }
 }
-```
+``
 
 ## Usage
 
