@@ -27,7 +27,7 @@ public class DingDongBot {
 
         bot.onScan((qrcode, statusScanStatus, data) -> {
             System.out.println(QrcodeUtils.getQr(qrcode));
-            System.out.println('Online Image: https://wechaty.github.io/qrcode/' + qrcode)
+            System.out.println('Online Image: https://wechaty.github.io/qrcode/' + qrcode)；
         });
 
         bot.onMessage(message -> {
