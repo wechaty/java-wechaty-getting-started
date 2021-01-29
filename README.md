@@ -42,7 +42,7 @@ make install
 ### Run
 
 ```sh
-export WECHATY_PUPPET_HOSTIE_TOKEN=your_token_at_here
+export WECHATY_PUPPET_SERVICE_TOKEN=your_token_at_here
 
 make bot
 ```

@@ -12,13 +12,13 @@ public class DingDongBot {
 
     public static void main(String[] args) throws Exception {
 
-        final String token = System.getenv("WECHATY_PUPPET_HOSTIE_TOKEN");
+        final String token = System.getenv("WECHATY_PUPPET_SERVICE_TOKEN");
 
         if (StringUtils.isBlank(token)) {
 
-            System.out.println("Error: WECHATY_PUPPET_HOSTIE_TOKEN is not found in the environment variables");
+            System.out.println("Error: WECHATY_PUPPET_SERVICE_TOKEN is not found in the environment variables");
             System.out.println("You need a TOKEN to run the Java Wechaty. Please goto our README for details");
-            System.out.println("https://github.com/wechaty/java-wechaty-getting-started/#wechaty_puppet_hostie_token");
+            System.out.println("https://github.com/wechaty/java-wechaty-getting-started/#run");
 
             throw new Exception("need a token");
         }
